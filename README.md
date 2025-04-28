@@ -43,7 +43,7 @@ This is a  Library Management Application. Here anyone can create, update, and d
 10.Password Reset:
 - Forgot password and reset password functionalities (reset_password.blade.php).
   
-11. Validation and Authorization:
+11.Validation and Authorization:
 - Form request validations (StorebookRequest, etc.).
 - Policy-based authorization (BookPolicy, StudentPolicy, etc.).
   
@@ -51,12 +51,12 @@ This is a  Library Management Application. Here anyone can create, update, and d
 - Fully set up with migration files for database schema.
 - Seeder classes available for demo data (UserSeeder, BookSeeder, etc.).
 
-13. Clean UI with Blade Templates:
+13.Clean UI with Blade Templates:
 - Separate layouts (layouts/app.blade.php).
 - Bootstrap-based frontend.
 - Pagination using Laravel’s built-in system.
   
-14. Responsive Frontend:
+14.Responsive Frontend:
 - Mobile-friendly pages using Bootstrap.
 - Clear navigation for Books, Students, Authors, Publishers, Reports, and Settings.
 
