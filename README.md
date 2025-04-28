@@ -1,62 +1,62 @@
 # Library Management Application 
-This is a simple library management system. Here anyone can create, update, and delete new authors, publishers, categories, books, booklists, and reports.
+This is a  Library Management Application. Here anyone can create, update, and delete new authors, publishers, categories, books, booklists, and reports.
 # Key Features of Library Management Application 
 1.User Authentication:
 - Login and session management for secure access (LoginController, Laravel auth).
 - Role-based access (admin/manager capabilities).
   
-- Book Management:
+2.Book Management:
 - Add, edit, view, and delete books (BookController, book model).
 - Manage book metadata like title, author, publisher, category, and stock.
   
-- Student Management:
+3.Student Management:
 - Add, edit, view, and delete student profiles (StudentController, student model).
 - Track which students borrowed which books.
   
-- Author and Publisher Management:
+4.Author and Publisher Management:
 - CRUD operations for authors (AutherController, auther model) and publishers (PublisherController, publisher model).
   
-- Book Issuing and Returning:
+5.Book Issuing and Returning:
 - Issue books to students (BookIssueController).
 - Track due dates and book return status.
 - View issued, returned, and overdue books.
   
-- Categorization:
+6.Categorization:
 - Manage book categories (CategoryController).
 - Assign books into different genres or sections.
   
-- Reporting:
+7.Reporting:
 - Generate reports:
 - Monthly reports.
 - Date-wise reports.
 - Non-returned books report (ReportsController).
   
-- Settings Management:
+8.Settings Management:
 - System settings can be updated dynamically (SettingsController, settings model).
   
-- Dashboard:
+9.Dashboard:
 - Admin dashboard displaying summaries like:
 - Number of books.
 - Number of students.
 - Number of issued books (dashboardController).
 
-- Password Reset:
+10.Password Reset:
 - Forgot password and reset password functionalities (reset_password.blade.php).
   
-- Validation and Authorization:
+11. Validation and Authorization:
 - Form request validations (StorebookRequest, etc.).
 - Policy-based authorization (BookPolicy, StudentPolicy, etc.).
   
-- Database Migration and Seeding:
+12.Database Migration and Seeding:
 - Fully set up with migration files for database schema.
 - Seeder classes available for demo data (UserSeeder, BookSeeder, etc.).
 
-- Clean UI with Blade Templates:
+13. Clean UI with Blade Templates:
 - Separate layouts (layouts/app.blade.php).
 - Bootstrap-based frontend.
 - Pagination using Laravel’s built-in system.
   
-- Responsive Frontend:
+14. Responsive Frontend:
 - Mobile-friendly pages using Bootstrap.
 - Clear navigation for Books, Students, Authors, Publishers, Reports, and Settings.
 
