@@ -1,7 +1,7 @@
 # Library Management Application 
 This is a simple library management system. Here anyone can create, update, and delete new authors, publishers, categories, books, booklists, and reports.
 # Key Features of Library Management Application 
-- User Authentication:
+1.User Authentication:
 - Login and session management for secure access (LoginController, Laravel auth).
 - Role-based access (admin/manager capabilities).
   
@@ -72,10 +72,13 @@ This is a simple library management system. Here anyone can create, update, and 
 - Run php artisan serve
 - Go to http://localhost:8000/
 - Login Page:
+  
   ![LMA-1](https://github.com/user-attachments/assets/a8ab0776-38c3-4ae5-ae87-3aa9785089d7)
 
 - Dashboard Page:
+  
   ![LMA-2](https://github.com/user-attachments/assets/859e584d-bbc8-4672-a3d4-b47670d112c1)
 
 - Author Page:
+  
   ![LMA-3](https://github.com/user-attachments/assets/add292b4-db66-49d6-8f2d-33167e3444e3)
